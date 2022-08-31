@@ -4,7 +4,7 @@ addToShoppingCartButtons.forEach((addToCartButton) => {
 });
 
 const comprarButton = document.querySelector('.comprarButton');
-comprarButton.addEventListener('click', comprarButtonClicked);
+comprarButton.addEventListener('click', comprarButtonClicked)
 
 const shoppingCartItemsContainer = document.querySelector(
   '.shoppingCartItemsContainer'
@@ -113,6 +113,6 @@ function quantityChanged(event) {
 }
 
 function comprarButtonClicked() {
-  shoppingCartItemsContainer.innerHTML = '';
+  Swal.fire(shoppingCartItemsContainer.innerHTML = 'Gracias por su compra, pronto recibira su pedido');
   updateShoppingCartTotal();
 }
