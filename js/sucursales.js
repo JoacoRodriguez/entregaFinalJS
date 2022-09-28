@@ -39,7 +39,7 @@ $("#cuerpo").click(function (e) {
 
 
 //si obtengo los datos de la sucursal de un objeto local
-/*
+
 for ( const sucursal of sucursales) {
 
     contenido += 
@@ -58,5 +58,5 @@ for ( const sucursal of sucursales) {
 
 $("#cuerpo").append(contenido);
 
-*/
+
 
