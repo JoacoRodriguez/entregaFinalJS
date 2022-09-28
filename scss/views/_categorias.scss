@@ -1,0 +1,62 @@
+@media only screen and (min-width:$phone){
+    .categorias {
+        width: 100%;
+        position: relative;
+        top: -60px;
+
+
+        .categorias__box {
+
+            display: grid;
+            grid-template: auto fill / auto;
+            gap: 15px;
+            cursor: pointer;
+
+            .categorias__contenido {
+                @include sizes(100%, 110px);
+                background-color: black;
+                border-radius: 10px;
+
+                @include centrarHijos;
+
+                p {
+                    font-size: 23px;
+                    color: white;
+                    font-weight: bold;
+                }
+
+                /*background-image: url(../../imagenes/categorias/gohan.png);
+                background-size: cover;*/
+            }
+
+        }
+        
+
+
+    }
+}
+@media only screen and (min-width:$tablet){
+    .categorias {
+       
+        .categorias__box {
+            grid-template-columns: auto auto;
+
+        }
+        
+
+
+    }
+}
+@media only screen and (min-width:$desktop){
+
+    .categorias {
+       
+        .categorias__box {
+            grid-template-columns: auto auto auto;
+
+        }
+        
+
+
+    }
+}

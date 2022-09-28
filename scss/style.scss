@@ -1,0 +1,20 @@
+@import 'utilities/variables';
+
+@import 'base/base';
+
+
+
+@import 'utilities/mixins';
+
+@import 'base/generalidades';
+
+//loyout
+@import 'layout/header';
+@import 'layout/encabezado';
+@import 'layout/productos';
+
+//views
+@import 'views/sucursales';
+@import 'views/categorias';
+@import 'views/detalle';
+@import 'views/carrito';
