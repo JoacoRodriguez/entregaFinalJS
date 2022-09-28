@@ -19,7 +19,7 @@ fetch('../assets/json/sucursales.json')
                             <p class="card__direccion" id="cardDireccion"> ${sucursal.direccion} </p>
                         </div>
                         <button class="card__boton">Pedir aquí</button>
-                     </div>
+                    </div>
                 </div>`
             }
             
@@ -35,7 +35,7 @@ $("#cuerpo").click(function (e) {
         });
         
     }
-  });
+});
 
 
 //si obtengo los datos de la sucursal de un objeto local
@@ -51,7 +51,7 @@ for ( const sucursal of sucursales) {
                 <p class="card__direccion" id="cardDireccion"> ${sucursal.direccion} </p>
             </div>
             <button class="card__boton">Pedir aquí</button>
-         </div>
+        </div>
     </div>`
 }
 
